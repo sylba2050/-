@@ -13,6 +13,7 @@ eval (pyenv init - | source)
 
 ```bash
 sudo apt install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev libffi-dev
+(sudo apt install libncurses5 libncurses5-dev libncursesw5)
 pyenv install 3.7.3
 ```
 
