@@ -29,3 +29,13 @@ eval (pyenv virtualenv-init - | source)
 ```bash
 pyenv virtualenv 3.7.3 hoge
 ```
+
+# golang-go on ubuntu
+
+1.12が入ってくることまで確認
+
+```bash
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install golang-go
+```
